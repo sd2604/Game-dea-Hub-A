@@ -1,0 +1,43 @@
+TREASURE HUNT MAZE
+
+The player navigates through a maze/grid to find hidden treasures while avoiding traps.
+
+Core Features:
+
+Grid/Map:
+
+Represented by a 2D array.
+
+Cells can contain: empty space, treasure, trap, or exit.
+
+Player Movement:
+
+Controlled with arrow keys (↑ ↓ ← →).
+
+Each move updates the player’s position on the grid.
+
+Game Rules:
+
+Collect treasures to increase score.
+
+If the player steps on a trap → lose points or health.
+
+Reach the exit to win.
+
+Scoring System:
+
++10 points for treasure.
+
+-5 points for traps.
+
+Bonus for finishing quickly (optional).
+
+Expansion Ideas:
+
+Add levels (increasing maze size or trap density).
+
+Add AI enemies that move randomly (player must avoid them).
+
+Use colors/emojis in console (like 💎 for treasure, ❌ for trap, 😀 for player).
+
+Convert later into a GUI version using pygame (with graphics and sounds).
